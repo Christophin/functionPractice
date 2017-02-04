@@ -8,7 +8,7 @@ function max(a, b){
     } else {
         return b;
     }
-};
+}
 
 // ---------------------
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
@@ -58,7 +58,7 @@ function rovarspraket(phrase){
 // ---------------------
 
 function reverse(string){
-    var y = ""
+    var y = "";
     for (var i = string.length - 1; i >= 0; i--) {
         y += string[i];
     }
